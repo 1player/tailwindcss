@@ -114,7 +114,7 @@
 }
 
 .font-sans {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .font-serif {
@@ -2769,7 +2769,8 @@
 }
 
 .self-auto {
-  align-self: auto;
+  -ms-grid-row-align: auto;
+      align-self: auto;
 }
 
 .self-start {
@@ -2781,11 +2782,13 @@
 }
 
 .self-center {
-  align-self: center;
+  -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .self-stretch {
-  align-self: stretch;
+  -ms-grid-row-align: stretch;
+      align-self: stretch;
 }
 
 .justify-start {
@@ -3085,7 +3088,7 @@
   }
 
   .sm\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .sm\:font-serif {
@@ -5740,7 +5743,8 @@
   }
 
   .sm\:self-auto {
-    align-self: auto;
+    -ms-grid-row-align: auto;
+        align-self: auto;
   }
 
   .sm\:self-start {
@@ -5752,11 +5756,13 @@
   }
 
   .sm\:self-center {
-    align-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
   }
 
   .sm\:self-stretch {
-    align-self: stretch;
+    -ms-grid-row-align: stretch;
+        align-self: stretch;
   }
 
   .sm\:justify-start {
@@ -6057,7 +6063,7 @@
   }
 
   .md\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .md\:font-serif {
@@ -8712,7 +8718,8 @@
   }
 
   .md\:self-auto {
-    align-self: auto;
+    -ms-grid-row-align: auto;
+        align-self: auto;
   }
 
   .md\:self-start {
@@ -8724,11 +8731,13 @@
   }
 
   .md\:self-center {
-    align-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
   }
 
   .md\:self-stretch {
-    align-self: stretch;
+    -ms-grid-row-align: stretch;
+        align-self: stretch;
   }
 
   .md\:justify-start {
@@ -9029,7 +9038,7 @@
   }
 
   .lg\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .lg\:font-serif {
@@ -11684,7 +11693,8 @@
   }
 
   .lg\:self-auto {
-    align-self: auto;
+    -ms-grid-row-align: auto;
+        align-self: auto;
   }
 
   .lg\:self-start {
@@ -11696,11 +11706,13 @@
   }
 
   .lg\:self-center {
-    align-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
   }
 
   .lg\:self-stretch {
-    align-self: stretch;
+    -ms-grid-row-align: stretch;
+        align-self: stretch;
   }
 
   .lg\:justify-start {
@@ -12001,7 +12013,7 @@
   }
 
   .xl\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .xl\:font-serif {
@@ -14656,7 +14668,8 @@
   }
 
   .xl\:self-auto {
-    align-self: auto;
+    -ms-grid-row-align: auto;
+        align-self: auto;
   }
 
   .xl\:self-start {
@@ -14668,11 +14681,13 @@
   }
 
   .xl\:self-center {
-    align-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
   }
 
   .xl\:self-stretch {
-    align-self: stretch;
+    -ms-grid-row-align: stretch;
+        align-self: stretch;
   }
 
   .xl\:justify-start {
